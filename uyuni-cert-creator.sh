@@ -7,13 +7,14 @@
 # --- Configuration ---
 # Set the paths to your CA certificate and private key.
 # ~ character will be expanded to the user's home directory.
+# we assume user root is running this script.
 CA_CERT_PATH="~/ssl-build/RHN-ORG-TRUSTED-SSL-CERT"
 CA_KEY_PATH="~/ssl-build/RHN-ORG-PRIVATE-SSL-KEY"
 # --- End Configuration ---
 
 
 # --- Script Logic ---
-# Use color codes for output
+# Use color codes for output makes it nicer ;-)
 GREEN='\033[0;32m'
 RED='\033[0;31m'
 NC='\033[0m' # No Color
