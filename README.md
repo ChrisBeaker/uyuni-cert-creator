@@ -1,5 +1,7 @@
 # uyuni-cert-creator
-This script is intended to create new server certificates for the uyuni-server and uyuni-db based on SUMA 4.3.x CA certificate 
+This script is intended to create new server certificates for the uyuni-server and uyuni-db based on SUMA 4.3.x CA certificate. 
+
+Current State: WORK IN PROGRESS needs some addition test 
 
 Usage:
 On the SUSE Manager Server 4.3 run: 
